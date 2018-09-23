@@ -1,0 +1,71 @@
+/*
+
+
+/*NAMING METHODOLOGIES
+All CSS properties should be applied via class names.
+We will be following Block-Element__Modifier (BEM) naming conventions.
+One-dash Two__underscores
+i.e. Header-Title__Center
+IDs only used on data recieving and data sending elements.
+i.e. id=username  id=submit
+Semantic tags should be used when possible.
+All design should be mobile first.
+*/
+/*
+Thorough documentation of page components and their functions.
+Every container, data sending, and data recieving element needs an accompanying comment that defines it's function.
+/*CSS
+CSS should be modular to it's component.
+All CSS files imported into style.css.
+All assets saved in their respective folders.*/
+
+:root{
+--PrimaryColor:#0055a3;
+--Secondary-Color: #f70000;
+--Tertiary-Color: #ffd200;
+--Submit-Color: #007e4c;
+--Title-Font: 'Ubuntu', sans-serif;
+--Text-Font: 'Raleway', sans-serif;
+}
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+a:active{
+	text-transform: uppercase;
+	color: #811
+	
+	
+}
+
+.content__container--state-full {
+	width: 100%;
+	margin: inherit;
+	border: 2px solid black;
+	height: 80%;
+	overflow-y: auto;
+}
+.button--state-activate {
+	display: inline-block;
+	background-image: linear-gradient(#EEE, #DDD);
+	font-weight: bold;
+	color: #007e4c;
+	font-size: 1.6rem;
+	height: 3rem;
+	width: 9rem;
+}
+.button--state-deactivate {
+	display: inline-block;
+	background-image: linear-gradient(#EEE, #DDD);
+	font-weight: bold;
+	color: #f70000;
+	font-size: 1.6rem;
+	height: 3rem;
+	width: 9rem;
+}
+.batches__header{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2rem;
+	text-align: left;
+}
+

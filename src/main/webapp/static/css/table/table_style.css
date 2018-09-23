@@ -1,0 +1,57 @@
+/*BASE CODE DO NOT CHANGE*/
+/*Start of Caleb's CSS Code*/
+
+/*Title of the content*/
+.content__header {
+	font-size: 1.6rem;
+	font-family: 'Ubuntu', sans-serif;
+	padding-left: 1%;
+	text-transform: uppercase;
+}
+
+.content__container {
+	width: 100%;
+	margin: inherit;
+	border: 2px solid black;
+	height: 50%;
+	overflow-y: auto;
+}
+
+.table {
+	width: 97.5%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.table__rowheader {
+	border-bottom: 1px solid black;
+	font-size: 1.6rem;
+}
+
+.table__header {
+	padding: 1.5% .5% 0 .5%;
+}
+
+.table__header:first-child {
+	width: 37.5%;
+	text-align: left;
+}
+
+.table__row {
+	border-bottom: none;
+}
+
+.table__row--border{
+	border-bottom:1px solid black;
+}
+
+.table__data {
+	font-size: 1.2rem;
+	padding: .5%;
+}
+
+.table__data:first-child {
+	text-align: left;
+}
+/*END BASE CODE DO NOT CHANGE*/

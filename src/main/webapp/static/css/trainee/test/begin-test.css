@@ -1,0 +1,20 @@
+.content_container--beginTestButton {
+    background: #0055A3;
+    color: #ffd200;
+    margin-top: 10%;
+    padding: 0.6rem 1.2rem;
+}
+
+.content_container--beginTestButton:hover {
+    color: #f70000;
+}
+
+.content_test-instructions {
+	width: 50%;
+	margin: 0 auto;
+	padding: 1%;
+	border: 1px solid black;
+	background-color: rgb(74, 143, 161, 0.65);
+	text-align: left;
+	font-size: .8rem;
+}

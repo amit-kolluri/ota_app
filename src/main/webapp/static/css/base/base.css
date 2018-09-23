@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+}
+
+body,
+html {
+
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper{
+    height: 150vh;
+
+    padding-bottom: 3rem;
+}

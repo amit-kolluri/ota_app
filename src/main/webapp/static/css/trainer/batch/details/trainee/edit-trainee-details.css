@@ -1,0 +1,60 @@
+.content_container_edit_trainee {
+	width: 100%;
+	margin: inherit;
+	border: 2px solid black;
+	height: 41rem;
+	padding: 0%;
+	overflow-y: auto;
+	position: relative;
+}
+.editTraineeDetail_table{
+	border: 1px solid black;
+	width: 50rem;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	position: absolute;
+	margin-left: 3rem;
+}
+.table_label{
+	width: 40%;
+	font-size: 25px;
+	margin: 10px;
+}
+#table_input_fontSize{
+	font-size:1.2rem;
+}
+.table_input, .table_button{
+	width: 30%;
+	height: 25px;
+	margin: 10px 0;
+	font-size:1.2rem;
+}
+.table_content{
+	
+	text-align: center;
+	
+}
+.registereduser_error{
+	color: red;
+	padding: 1%;
+	z-index: 10;
+	position: absolute;
+	right: 5px;
+}
+.editTraineeform_error{
+	color: red;
+	padding: 1%;
+}
+.edit_trainee_deatil_header_h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.2rem;
+	text-align: left;
+}
+#edit_trainee_detail_h1{
+	font-size: 1.2rem;
+}
+.editTraineeDetail_errors{
+	color: red;
+	font-size:1.1rem;
+}

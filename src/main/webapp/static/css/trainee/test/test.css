@@ -1,0 +1,120 @@
+.header-test-v3 {
+    font-family: 'Ubuntu', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #0055A3;
+}
+
+.header-test-v3 a:visited, a:link {
+    color: #ffd200;
+}
+
+.header-test-v3 a:hover {
+    color: #f70000;
+}
+
+.header-test-v3 h1 {
+    padding: 1rem;
+}
+
+.header_home-test-v3, .header_tests-test-v3, .header_reports-test-v3 {
+    float: left;
+}
+
+.header_settings-test-v3, .header_logout-test-v3 {
+    float: right;
+}
+
+.header_home-test-v3 {
+    border-right: 1px solid #ffd200;
+}
+
+.mainContent-test-v3 {
+    margin: 6rem;
+    clear: both;
+    font-family: 'Raleway', sans-serif;
+    font-size: 200%;
+}
+
+.mainContent_header-test-v3 {
+	padding: 2rem;
+	padding-bottm: 3rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.mainContent_header--testName-test-v3 {
+    float: left;
+}
+
+.mainContent_header--timeRemaining-test-v3 {
+    text-align: right;
+    float: right;
+}
+
+.mainContent_test-test-v3 {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.mainContent_test--questions-test-v3{
+	overflow: auto;
+}
+
+.mainContent_test--questions--question-test-v3 {
+    width: 50%;
+    float: left;
+    padding: 2rem 0rem;
+    font-size: 120%;
+}
+
+.mainContent_test--submit-test-v3 {
+    font-family: 'Ubuntu', sans-serif;
+    float: right;
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.footer-test-v3 {
+    clear: both;
+    padding: 1rem;
+    background: #0055A3;
+    color: #ffd200;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@media (max-width: 500px) {
+    .header-test-v3 {
+        font-size: 70%;
+    }
+
+    .mainContent_header-test-v3 h2 {
+        width: 100%;
+    }
+
+    .mainContent_header--timeRemaining-test-v3 {
+        text-align: left;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-test-v3 {
+        font-size: 50%;
+    }
+
+    .mainContent-test-v3 {
+        margin: 6rem 2rem;
+    }
+}
+
+@media (max-width: 340px) {
+    .header-test-v3 {
+        font-size: 30%;
+    }
+}

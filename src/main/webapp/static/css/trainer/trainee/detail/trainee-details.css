@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow");
+
+body {
+    font-family: "Archivo Narrow", serif;
+}
+
+.trainee_details_container {
+    margin-left: 50px;
+    width: 100%;
+    margin-right: 50px;
+}

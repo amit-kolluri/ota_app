@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Previous Test</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../../../static/css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+        <div id="header"></div>
+        <div id="sidebar"></div>
+		<section class="content">
+			<h1 class="content_header">Previous Test</h1>
+			<div class="content_container">
+				<table class="table">
+					<thead class="table_head">
+						<tr class="table_rowheader">
+							<td class="table_header">Test Name</td>
+							<td class="table_header">Time Taken</td>
+							<td class="table_header">Score</td>
+							<td class="table_header">Questions</td>
+						</tr>
+					</thead>
+					<tbody class="table_body">
+						<tr class="table_row">
+							<td class="table_data"><a href="#" class="table_anchor">Test 1</a></td>
+							<td class="table_data">13:45</td>
+							<td class="table_data">100%</td>
+							<td class="table_data">15</td>
+						</tr>
+					</tbody>
+				</table>
+			</div><br>
+		</section>
+	</div>
+	<div id="footer"></div>
+<script src="../../../../static/js/jquery.js"></script>
+
+<script src="../../../../static/js/main.js"></script>
+
+<script>
+    $(function () {
+        $('#header').load("../../common/header.html");
+        $('#sidebar').load("../trainee-sidebar.html");
+        $("#footer").load("../../common/footer.html");
+    });
+</script>
+</body>
+
+</html>

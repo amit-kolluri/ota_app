@@ -1,0 +1,123 @@
+.trainer_batch_content{
+    padding: 0;
+}
+
+.batch_details_container{
+    border: 0.2rem black solid;
+    width: 90%;
+    margin: 2rem 0 0 5%;
+    padding: 2% 2% 6% 2%;
+    height: 120%;
+}
+
+.trainer_content_fieldset {
+    width: 25%;
+    height: 6.25rem;
+    margin: 3% 0 3% 2%;
+    padding: 1% 1% 15% 1%;
+    font-size: 150%;
+}
+
+.trainer_batch_summary{
+    width: 100%;
+    padding: 5%;
+}
+
+.trainer_batch_summary td {
+    /*text-align: left;*/
+    height: 1.6rem;
+}
+
+.content_scrollable_list{
+    padding-left: 15%;
+    margin-bottom: 0;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    font-size: 150%;
+}
+
+.content_scrollable_list table {
+    width: 90%;
+    table-layout: fixed;
+}
+
+table.table_static_head {
+    background: #eee;
+}
+
+.inner_trainee_details {
+    height: 15rem;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.inner_trainee_details td
+{
+    border-bottom: 1px solid black;
+    padding: 0.5rem 0 0.5rem 1.8rem;
+}
+
+.table_static_head th{
+    border-bottom: 0.1rem solid black;
+    text-align: left;
+    padding-left: 6%;
+}
+
+.table_static_head tr {
+    word-wrap: break-word;
+}
+
+.batch-trainees_toggle {
+    position: relative;
+    display: inline-block;
+    width: 6rem;
+    height: 1.8rem;
+    color:white;
+    text-align: left;
+}
+
+.batchdetails-show--left{
+    text-align: left;
+}
+
+.batch_status_toggle--sliding {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    text-align: left;
+}
+
+.batch_status_toggle--sliding:before {
+    position: absolute;
+    content: "In Active";
+    text-align:center;
+    height: 1.8rem;
+    width: 4rem;
+    background-color: #808080;
+    -webkit-transition: .4s;
+    transition: .4s;
+    font-size: 1rem;
+}
+
+input:checked+.batch_status_toggle--sliding {
+    background-color: #ccc;
+}
+
+input:focus+.batch_status_toggle--sliding {
+    box-shadow: 0 0 1px #808080;
+}
+
+input:checked+.batch_status_toggle--sliding:before {
+    -webkit-transform: translateX(3rem);
+    -ms-transform: translateX(3rem);
+    transform: translateX(4rem);
+    content: "Active";
+    background-color: #0080ff;
+}

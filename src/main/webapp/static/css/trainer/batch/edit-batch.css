@@ -1,0 +1,41 @@
+.edit-batch-name {
+    text-align: center;
+    padding: 10%;
+    font-size: 300%;
+}
+
+
+
+.input-box {
+    background: white;
+    height: 40px;
+    width: 250px;
+}
+
+.batch-edit-table
+.batch-edit-table-row
+.batch-edit-table-data{
+
+    height: 100%;
+}
+
+.batch-edit-table-data{
+    padding-left: 10%;
+}
+
+.batch-edit-table-row{
+    padding-bottom: 10%;
+}
+
+.batch-edit-table {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10%;
+    border-collapse: collapse;
+}
+
+.edit-batch-submit-button {
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 50%;
+}

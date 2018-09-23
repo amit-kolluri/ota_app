@@ -1,0 +1,79 @@
+/**@author MAdhuri Vutukury*/
+.content_continer--createtest {
+    width: 80%;
+    margin-top: 5%;
+    border: 2px solid black;
+    position: relative;
+    /*margin-right: 50%;*/
+    margin-left: 2%;
+    height: 25rem;
+
+}
+
+.content_heading {
+    margin-bottom: -5%;
+    font-size: 250%;
+    margin-right: 80%;
+}
+
+.content_technology--dropdown, .content_topic--dropdown, .content_textbox {
+    margin-left: 1%;
+    width: 38%;
+    padding: 2% 1%;
+    position: absolute;
+}
+
+.content_technology--dropdown {
+    margin-top: 6%;
+}
+
+.content_topic--dropdown {
+    margin-top: 20%;
+}
+
+.content_textbox {
+
+    margin-top: 21%;
+    margin-right: 1%;
+    position: absolute;
+
+}
+
+.content_topic--label, .content_technology--label {
+
+    margin-left: -41%;
+    float: left;
+    position: absolute;
+    /*width: 30%;*/
+    padding: 1rem;
+    font-size: 0.9rem;
+
+}
+
+.content_technology--label {
+    margin-top: 4%;
+    /*width:*/
+
+}
+
+.content_topic--label {
+    margin-top: 15%;
+
+}
+
+.content_label {
+    margin-top: 16%;
+    position: absolute;
+
+}
+
+.content_button--submit {
+    position:absolute;
+    /*margin-top: 65%;*/
+    margin-bottom: 20%;
+    /*margin-left: 70%;*/
+
+}
+
+
+

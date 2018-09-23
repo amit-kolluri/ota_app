@@ -1,0 +1,41 @@
+.registration_wrapper{
+	padding: auto;
+	height: 80vh;
+}
+
+.registration_table{
+	border: 1px solid black;
+	width: 70%;
+	text-align: center;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+.table_label{
+	width: 40%;
+	font-size: 25px;
+	margin: 10px;
+}
+.table_input, .table_button{
+	width: 30%;
+	height: 25px;
+	margin: 10px 0;
+}
+.table_content{
+	width: 100%;
+	height: 60vh;
+	text-align: center;
+	position:relative;
+}
+.registereduser_error{
+	color: red;
+	padding: 1%;
+	z-index: 10;
+	position: absolute;
+	right: 5px;
+}
+.registrationform_error{
+	color: red;
+	padding: 1%;
+}
+

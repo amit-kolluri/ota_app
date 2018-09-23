@@ -1,0 +1,57 @@
+.testdefaulttrainer-tests_toggle {
+	position: relative;
+	display: inline-block;
+	width: 6rem;
+	height: 1.8rem;
+	color:white;
+	text-align: left;
+}
+
+.testdefaulttrainer-show--left{
+	text-align: left;
+}
+
+.testdefaulttrainer-tests_toggle input {
+	display: none;
+}
+
+.testdefaulttrainer-tests_toggle--sliding {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+	text-align: left;
+}
+
+.testdefaulttrainer-tests_toggle--sliding:before {
+	position: absolute;
+	content: "Hide";
+	text-align:center;
+	height: 1.8rem;
+	width: 3rem;
+	background-color: #808080;
+	-webkit-transition: .4s;
+	transition: .4s;
+	font-size: 1rem;
+}
+
+input:checked+.testdefaulttrainer-tests_toggle--sliding {
+	background-color: #ccc;
+}
+
+input:focus+.testdefaulttrainer-tests_toggle--sliding {
+	box-shadow: 0 0 1px #808080;
+}
+
+input:checked+.testdefaulttrainer-tests_toggle--sliding:before {
+	-webkit-transform: translateX(3rem);
+	-ms-transform: translateX(3rem);
+	transform: translateX(3rem);
+	content: "Show";
+	background-color: #0080ff;
+}

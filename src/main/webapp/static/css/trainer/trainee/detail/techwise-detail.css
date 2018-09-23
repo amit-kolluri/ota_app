@@ -1,0 +1,55 @@
+.trainee {
+    font-size: 160%;
+}
+
+.trainee_header {
+	overflow: auto;
+	padding-bottom: 8%;
+	padding-top: 2%;
+}
+
+.trainee_header_h1 {
+    font-size: 200%;
+	display: inline-block;
+	float: left;
+	padding-left: 35%;
+}
+
+.trainee_header_link {
+	font-size: 140%;
+	display: inline-block;
+	float: right;
+	position: absolute;
+	right: 20%;
+	padding-top: 0.4%;
+	color: blue;
+}
+
+.trainee_table {
+	clear: both;
+	margin: auto;
+	width: 90%;
+}
+
+.trainee_table_td {
+    width: 12%;
+}
+
+.techwisedetail-confirm-popup {
+	display: none;
+    background-color: #555;
+    color: #fff;
+    width: 5rem;
+    float: right;
+	position: absolute;
+	right: 14%;
+}
+
+.techwisedetail-confirm-link{
+	color:white;
+	 background-color: #555;
+}
+
+.techwisedetail-confirm-popup:target {
+	display: inline-block;
+}

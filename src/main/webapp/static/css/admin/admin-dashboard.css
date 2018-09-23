@@ -1,0 +1,50 @@
+.dashboard
+{
+}
+.dashboard_card {
+    border:1px solid black;
+    float:left;
+    height:10rem;
+    width:10rem;
+    text-align:center;
+    margin:3em;
+}
+
+.dashboard_chart {
+    width:100%;
+    height:40rem;
+    border:1px solid black;
+    float:right;
+
+}
+
+.dashboard_row {
+    width:fit-content;
+    height:50%;
+}
+
+
+.dashboard_column {
+    width: 50%;
+    height: 100%;
+    float:left;
+}
+
+.dashboard_card_title
+{
+    font-size: 3.2em;
+}
+
+.dashboard_card_subtitle
+{
+	font-size: 2em;
+    padding-top: 2em;
+}
+
+#dashboard_dropdown-25percent {
+	width:25%;
+}
+
+#dashboard_chart-75percent {
+	width:75%;	
+}

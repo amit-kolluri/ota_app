@@ -1,0 +1,89 @@
+/* Author: Geon Gayles */
+
+
+/* .questionedit_header{
+    margin-left: 33em;
+} */
+
+.questionedit{
+    width: 100%;
+ 
+}
+
+.questionedit_box{
+    
+    /* border: 1px solid black; */  
+    text-align: center;
+    height: 27.0rem;
+    overflow: scroll;
+    
+}
+
+.questionedit_box_top{
+   position: relative;
+}
+
+.questionedit_box_top div{
+    display: inline-block;
+    padding-right: 2.0rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.questionedit_box_testname {
+    font-size: .7rem;
+    position: relative;
+}
+
+.questionedit_box_dropdown{
+    position: relative;
+    top: 1.0rem;
+    
+}
+
+.questionedit_box_select{
+    width: 12.0rem; 
+}
+
+.questionedit_box_hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.questionedit_box_bottom div{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.questionedit_box_question p{
+    /* border: 0.01rem solid black; */
+    padding: 1.0rem;
+}
+
+.questionedit_box_answers_1{
+    
+    padding: .2rem .9rem;
+}
+
+.questionedit_box_answers_buttonDiv{
+    margin-left: 0.5rem;
+}
+
+.questionedit_box_textarea {
+	resize: none;
+	white-space: normal;
+}
+
+
+
+
+
+
+
+
+

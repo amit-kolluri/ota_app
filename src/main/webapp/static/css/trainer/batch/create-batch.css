@@ -1,0 +1,47 @@
+
+.content_batch-container {
+
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.content_container--input {
+
+}
+
+.errorblock {
+    color: #000;
+    padding: 8px;
+    margin: 16px;
+    font-size: medium;
+}
+
+.content_text {
+    font-size: medium;
+}
+
+.content_text--description{
+    font-size: medium;
+}
+
+.content_batch--textarea{
+    width: 25%;
+}
+.content_batch--textbox {
+    width: 25%;
+}
+
+.content_button--submit {
+
+
+
+    position: absolute;
+    margin-botton: 20%;
+    margin-top: 7%;
+    margin-right: 20%;
+
+
+}
+
+
+

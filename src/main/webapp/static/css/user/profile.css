@@ -1,0 +1,64 @@
+
+.profile_picture {
+    background-size: cover;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 2%;
+    background-size: cover;
+    background-image: url(../../images/avatar-placeholder.svg);
+    float: left;
+} 
+
+.profile_image {
+ 	border-radius: 50%;
+    margin-bottom: 2%;
+    width: 15rem;
+    height: 15rem;
+    float: left;   
+    top: 0; 
+}
+
+.bio p {
+    padding-top: 2vw;
+}
+
+.bio {
+	float: right;
+	width: 60%;
+	text-align: left;
+}
+
+.header_container {
+	float: right;
+	width: 60%;
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+.account_header {
+	padding-bottom: 5px;
+}
+.prof_img_container {
+	float: left;
+	width: 20%;
+}
+
+.account_container {
+	width: 25%;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.ul_style {
+	list-style-type: none;
+}
+
+.ul_li {
+	padding-left: 0px;
+	padding-top: 2px;
+}
+
+.errorMessage {
+	color: red;	
+}

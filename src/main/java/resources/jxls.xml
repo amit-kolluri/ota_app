@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbook>
+  <worksheet name="test_output">
+    <section startRow="1" endRow="3">
+    </section>
+    <loop startRow="4" endRow="4" items="tests" var="test" varType="com.yash.ota.doman.Test">
+      <section startRow="4" endRow="4">
+        <mapping row="4" col="0">test.id</mapping>
+        <mapping row="4" col="1">test.topicId</mapping>
+        <mapping row="4" col="2">test.totalMarks</mapping>
+        <mapping row="4" col="3">test.timeAllotted</mapping>
+        <mapping row="4" col="4">test.statusId</mapping>
+        <mapping row="4" col="5">test.createdBy</mapping>
+        <mapping row="4" col="6">test.createdDate</mapping>
+        <mapping row="4" col="7">test.modifiedBy</mapping>
+        <mapping row="4" col="8">test.modifiedDate</mapping>
+      </section>
+      <loopbreakcondition>
+        <rowcheck offset="0">
+          <cellcheck offset="0"></cellcheck>
+        </rowcheck>
+      </loopbreakcondition>
+    </loop>
+  </worksheet>
+</workbook>

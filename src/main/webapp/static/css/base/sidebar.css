@@ -1,0 +1,68 @@
+.sidebar {
+  width: 20%;
+  height: 100%;
+  float: left;
+  display: block;
+}
+/*.sticky {
+    position: fixed;
+    top: 0;
+  }*/
+.profile {
+  width: 100%;
+  text-align: center;
+}
+
+.profile_image{
+    margin-top: 5%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-size: cover;
+    background-image: url(../../images/avatar-placeholder.svg);
+    border-radius: 50%;
+    width: 50%;
+    padding-bottom: 50%;
+}
+
+.profile_name{
+    font-size: 1.2rem;
+    margin-top: 5%;
+}
+
+.menu, .menu_submenu{
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.menu a{
+    display: block;
+    background-color: #0055A3;
+    text-decoration: none;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.menu_submenu a{
+    background-color: rgb(73, 130, 184);
+    font-size: .7rem;
+}
+
+.menu a:hover{
+    font-weight: 700;
+}
+
+.menu_submenu li{    
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+.menu li:hover .menu_submenu li {
+    display: block;
+    max-height: 100px;
+  }

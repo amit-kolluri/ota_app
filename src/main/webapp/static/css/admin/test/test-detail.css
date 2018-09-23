@@ -1,0 +1,73 @@
+
+.content--align {
+    float: right;
+    padding: 0;
+    width: 65%;
+    max-width: 65%;
+    font-size: 1rem;
+    position: absolute;
+    border: 0.01rem solid black;
+    margin-left: 1rem;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.display_while_large {
+    display: none;
+
+}
+
+.display_while_small {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    display: table-row;
+}
+.table_data--padding{
+    padding-left: 0.2rem;
+}
+.button_export {
+    font-size: 0.89rem;
+    border-radius: 0.12rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+
+@media all and (min-width: 1000px) {
+    .display_while_large {
+        display: table-cell;
+    }
+
+    .display_while_small {
+        display: none;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .content_header {
+        font-size: 0.8rem;
+    }
+
+    .table_header {
+        font-size: 0.8rem;
+    }
+    .table_data{
+        font-size: 0.8rem;
+    }
+
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10rem;
+}

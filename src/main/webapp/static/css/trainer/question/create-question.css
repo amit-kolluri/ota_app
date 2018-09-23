@@ -1,0 +1,104 @@
+body{
+    font-size: 62.5%;
+}
+
+.questioncreatetrainer {
+    width: 100%;
+}
+
+.questiontrainer_box{
+    
+     border: 1px solid black; 
+     height: 100%;
+     width: 100%;
+      
+    text-align: center;
+
+}
+
+#error {
+	color:red;
+	
+}
+
+.questiontrainer_createquestion {
+    border: 0.01rem solid black;
+    padding: .2rem .9rem;
+}
+
+.questiontrainer_box_bottom {
+    width: 100%;
+    display: inline-block;
+}
+
+.questiontrainer_box_hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-style: inset;
+    border-width: 1px;
+}
+.questiontrainer_box_top div{
+    display: inline-block;
+    padding-right: 2.0rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.questiontrainer_box_dropdown{
+    position: relative;
+    top: 1.0rem;
+    
+}
+
+.questiontrainer_box_testname {
+    font-size: .7rem;
+    position: relative;
+}
+
+.questiontrainer_box_top{
+   position: relative;
+}
+
+.questiontrainer_box_select{
+    width: 12.0rem; 
+}
+
+.questiontrainer_box_bottom div{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.questiontrainer_box_question textarea{
+    display: inline-block;
+}
+
+.questiontrainer_box_answers_1{
+    border: 0.01rem solid black;
+    padding: .2rem .9rem;
+    margin-left:0.2rem;
+}
+
+.questiontrainer_box_answers {
+    position: relative;
+}
+
+.questiontrainer_box_answers_buttonDiv{
+    margin-left: 0.5rem;
+    display: block;
+    position: absolute;
+    top: 5.0rem;
+}
+
+
+
+
+
+
+
+
+
+
+

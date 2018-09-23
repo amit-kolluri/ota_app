@@ -1,0 +1,96 @@
+
+
+.container{
+	position:absolute;
+	width: 98em;
+	height: 40em;
+	margin-top: 15em;
+	margin-left: 3em;
+	padding: 2rem;
+}
+.label_top_test{
+	padding-left: 4em;
+	margin-left: 8em;
+	font-size:2em;
+
+
+}
+
+.label_top{
+	margin-top: 2%;	
+	
+}
+.bottom_content{
+	margin-top: 3%;
+	padding-left: 10%;
+	margin-left: -10%;
+	clear: both;
+}
+
+.label_top_duration{
+	padding-left: 45em;
+	margin-right: 6em;
+	font-size: 2em;
+}
+.middle_hr{
+	clear: both;
+	margin-top: 1em;
+	font-size: 1.5em;
+}
+
+.label_top_test{
+	margin-left: -10em;
+}
+.middle_content{
+	margin-right: 0em;
+}
+.middle_content_box1{
+	margin: 1em 0em;
+	margin-left: 2em;
+	text-align: center;
+	float: left;
+
+}
+.middle_content_box2{
+	margin: 1em 0em;
+	margin-left: 11em;
+	text-align: center;
+	float: left;
+}
+.bottom_content_box{
+	width: 10%;
+	margin-left: 1%;
+}
+.middle_content_button{
+	margin-top: 1em;
+	margin-left: 1em;
+	background-color: #8888;
+	float: left;
+	width: 4em;
+}
+.bottom_hr{
+	margin-top:8rem;
+}
+
+.bottom_content_table {
+	width: 100%;
+}
+
+
+.bottom_content_table_th {
+	margin: 0 0.25em;
+	border: 0.5px solid black;
+	width: 15%;
+	float: left;
+}
+
+.bottom_content_table_td {
+	width: 16%;
+	float: left;	
+	font-size: 80%;
+}
+
+.edit-test-form {
+	float: left;
+	width: 50%;
+}

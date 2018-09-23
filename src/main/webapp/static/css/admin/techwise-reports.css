@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow");
+
+.content_container {
+	margin-left: 50px;
+    width: 100%;
+    margin-right: 50px;
+}
+
+.content {
+	justify-content: normal;
+	font-family: "Archivo Narrow";
+}
+
+#chartdiv {
+	font-size: 1.6rem;
+}
